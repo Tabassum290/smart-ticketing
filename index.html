@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Ticketing</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+    .raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+</style>
+</head>
+<body class=".raleway-normal container mx-auto">
+    <main>
+        <header>
+            <!-- Navbar Section -->
+            <div class="navbar">
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M4 6h16M4 12h8m-8 6h16" />
+                          </svg>
+                        </div>
+                        <ul
+                          tabindex="0"
+                          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-semibold">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Destination</a></li>
+                            <li><a>Search</a></li>
+                           </ul>
+                      </div>
+                      <a class="btn btn-ghost text-4xl font-bold">P-Ticket</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1 font-semibold">
+                       <li><a>Home</a></li>
+                       <li><a>About</a></li>
+                       <li><a>Destination</a></li>
+                       <li><a>Search</a></li>
+                      </ul>
+                    </div>
+                    <div class="navbar-end">
+                      <a class="btn bg-[#1DD1001A] border-[#1DD100] text-[#1DD100] ">Bus
+                        <img src="./images/bus-icon.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+            </div>
+<!-- banner Section -->
+ <div class="banner">
+<div
+  class="hero min-h-screen rounded-lg"
+  style="background-image: url(./images/banner.png);">
+ 
+  <div class="hero-content text-neutral-content text-center">
+    <div>
+      <h1 class="mt-[-180px] mb-8 lg:text-6xl text-4xl font-bold text-white">End-to-End Travel with<br> <span class="text-[#1DD100]"> P Paribahan</span></h1>
+      <p class="mb-5 text-center align-center">
+        Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .
+      </p>
+      <button class="btn btn-primary bg-[#1DD100] text-black border-none font-semibold p-4">Buy Tickets</button>
+    </div>
+  </div>
+</div>
+<!-- Card Section -->
+ <div class="lg:flex lg:justify-center lg:mt-[-60px] gap-16">
+  <div class="stats shadow flex justify-between p-4 border-4 border-b-[#1DD100] lg:mt-0 mt-4">
+      <div class="align-center p-4">
+        <img class="w-full align-center" src="./images/people.png" alt="">
+      </div>
+      <div class="stat">
+      <div class="stat-title h1 font-bold text-3xl text-black">500K+</div>
+      <div class="h2 text-[#03071299] font-semibold">Registered users</div>
+    </div>
+  </div>
+  <div class="stats shadow flex justify-between p-4 border-4 border-b-[#1DD100] lg:mt-0 mt-4">
+    <div class="align-center p-4">
+      <img class="w-full align-center" src="./images/ticket-cupon.png" alt="">
+    </div>
+    <div class="stat">
+    <div class="stat-title h1 font-bold text-3xl text-black">1.7 lacks</div>
+    <div class="h2 text-[#03071299] font-semibold">Tickets sold</div>
+  </div>
+</div>
+  <div class="stats shadow flex justify-between p-4 border-4 border-b-[#1DD100] lg:mt-0 mt-4">
+    <div class="align-center p-4">
+      <img class="w-full align-center" src="./images/stoppage.png" alt="">
+    </div>
+    <div class="stat">
+    <div class="stat-title h1 font-bold text-3xl text-black">80K+</div>
+    <div class="h2 text-[#03071299] font-semibold">Rental partners</div>
+  </div>
+</div>
+ </div>
+ </div>
+</header>
+<!-- best offers -->
+ <section class="w-9/12 mx-auto mt-8 lg:flex lg:justify-around">
+  <div class="flex">
+<div class=" p-6 bg-[#FFBF0F] border rounded-[24px] rounded-b-2xl">
+  <h1 class="text-3xl text-black font-bold">15% OFF</h1>
+  <p class="text-xl text-black font-semibold">on your next purchase</p>
+ <p class="text-[#03071280]"> use by January 2024</p>
+</div>
+<div class=" p-6 bg-[#FFBF0F] border rounded-[24px] rounded-b-[24px] mr-4">
+  <h1 class="text-3xl text-black font-bold text-center mt-4">NEW15</h1>
+  <p class="text-[#03071280] text-center"> Coupon Code</p>
+</div>
+</div>
+<!-- second card -->
+  <div class="flex">
+<div  class="p-6 bg-[#F78C9C] rounded-[24px]">
+  <h1 class="text-3xl text-black font-bold">15% OFF</h1>
+  <p class="text-xl text-black font-semibold">on your next purchase</p>
+ <p class="text-[#03071280]"> use by January 2024</p>
+</div>
+<div class="p-6 bg-[#F78C9C] border rounded-[24px] rounded-b-2xl  mr-4">
+  <h1 class="text-3xl text-black font-bold text-center mt-4">NEW15</h1>
+  <p class="text-[#03071280] text-center"> Coupon Code</p>
+</div>
+</div>
+</section>
+<div class="flex justify-center my-8">
+  <a class="btn bg-[#1DD1001A] border-[#1DD100] text-[#1DD100] font-bold p-4">See All Offers</a>
+</div>
+<!-- Main Part -->
+ <section>
+  
+ </section>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
